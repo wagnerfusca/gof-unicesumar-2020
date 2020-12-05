@@ -1,4 +1,4 @@
-package br.edu.unicesumar.memento;
+package br.edu.unicesumar.mediator;
 
 public class Mediator {
 
