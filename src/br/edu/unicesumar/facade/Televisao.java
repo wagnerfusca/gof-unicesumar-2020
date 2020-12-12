@@ -1,12 +1,12 @@
 package br.edu.unicesumar.facade;
 
-public class Luzes {
+public class Televisao {
 
 	public void ligar() {
-		System.out.println("ligar luz");
+		System.out.println("ligar tv");
 	};
 	
 	public void desligar() {
-		System.out.println("desligar luz");
+		System.out.println("desligar tv");
 	};
 }

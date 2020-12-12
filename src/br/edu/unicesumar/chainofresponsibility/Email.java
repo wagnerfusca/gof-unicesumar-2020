@@ -8,7 +8,13 @@ public abstract class Email {
 	protected abstract void enviarEmailParaDestinatario();
 	
 	public void enviarEmail(TipoEmail tipoEmail) {
-
+		if (this.tipoEmail == tipoEmail) {
+			enviarEmailParaDestinatario();
+		} 
+		
+		if(next != null) {
+			next.enviarEmail(tipoEmail);
+		}
 	}
 	
 	public void setNext(Email next) {
